@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1{
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.container{
+    width: 100vw;
+    height: 100px;
+}
+
+form{
+    max-width: 470px;
+    margin: auto;
+}
+
+form > input{
+    display: block;
+    padding: 8px;
+    width: 450px;
+    margin-bottom: 5px;
+}
+
+form > input:focus{
+    outline-color: darkgreen;
+}
+
+form p{
+    background-color: red;
+    padding: 8px;
+    width: 454px;
+    margin-bottom: 5px;
+    display: none;
+    font-family: arial;
+    font-weight: normal;
+    text-align: center;
+}
+
+form button{
+    border: 1px;
+    width: 470px;
+    padding: 8px;
+    background-color: rgb(96, 223, 96);
+}
+
+form button:hover{
+    cursor: pointer;
+}
+
+
